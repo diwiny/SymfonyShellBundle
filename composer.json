@@ -1,0 +1,21 @@
+{
+    "name": "diwiny/symfony-shell-bundle",
+    "description": "This is a wrapper bundle for the PsySH REPL",
+    "type": "library",
+    "require": {
+        "psy/psysh": "^0.8.13",
+        "symfony/framework-bundle": "^2.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kovács Lajos",
+            "email": "kovacs.lajos1218@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Diwiny\\SymfonyShellBundle\\": ""
+        }
+    }
+}
