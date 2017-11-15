@@ -12,8 +12,9 @@ class ShellCommand extends ContainerAwareCommand
      */
     protected function configure()
     {
+        parent::configure();
         $this
-            ->setName('shell')
+            ->setName('shell:run')
             ->setDescription('Fire up a PsySH shell');
     }
 

@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "psy/psysh": "^0.8.13",
-        "symfony/framework-bundle": "^2.7"
+        "symfony/framework-bundle": "^2.7",
+        "symfony/expression-language": "^2.6"
     },
     "license": "MIT",
     "authors": [
